@@ -21,7 +21,10 @@
 ### 7 Exécuter les seeds :
 `./vendor/bin/sail artisan db:seed`
 
-### 8 Démarrer l'application :
+### 8 Importer les films :
+`./vendor/bin/sail artisan migrate movies:fetch-trending`
+
+### 9 Démarrer l'application :
 `./vendor/bin/sail up`
 
 
